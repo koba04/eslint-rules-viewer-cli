@@ -1,0 +1,24 @@
+{
+  "name": "eslint-rules-viewer-cli",
+  "version": "0.1.0",
+  "description": "",
+  "bin": "lib/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["eslint"],
+  "author": "koba04",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "^4.13.1"
+  },
+  "dependencies": {
+    "commander": "^2.12.2",
+    "node-fetch": "^1.7.3",
+    "table": "^4.0.2"
+  }
+}
